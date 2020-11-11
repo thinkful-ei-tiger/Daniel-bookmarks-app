@@ -1,0 +1,143 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  text-shadow: 2px 2px 10px blue;
+}
+
+h2 {
+  text-shadow: 2px 2px 10px blue;
+}
+
+h2.newBm {
+  text-shadow: 2px 2px 10px #f50c0c;
+  color: black;
+  font-size: 60px;
+  margin-left: 29%;
+}
+
+h3 {
+  color: #f50c0c;
+  text-shadow: 2px 2px 10px black;
+}
+
+.beginning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2.initialAdd {
+  font-size: 45px;
+  cursor: pointer;
+  margin-right: 100px;
+  border: 0px;
+  border-style: none;
+}
+
+.bookmark-select {
+  border-radius: 0px;
+  width: 125px;
+  height: 30px;
+  padding: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: black;
+  font-size: 25px;
+  text-shadow: 2px 2px 10px blue;
+}
+
+.boxed {
+  border: 3px;
+  border-style: groove;
+  border-color: rgb(233, 10, 10);
+}
+
+section {
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.nameTitle {
+  font-size: 25px;
+}
+
+.listItems {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.listDisplay {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+.class {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span.nameTitle {
+  cursor: pointer;
+}
+
+.listDisplay {
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: black;
+  border: 2px solid;
+  border-radius: 0px;
+  padding: 15px;
+}
+
+/*
+bookmark rating stylez
+*/
+.rating {
+  margin-left: 20px;
+  width: 300px;
+}
+
+.rating span {
+  float: right;
+  position: relative;
+}
+
+.rating span input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.rating span label {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  margin-right: 2px;
+  line-height: 30px;
+}
+
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+  background-image: url("https://github.com/thinkful-ei-tiger/Fuentes-bookmarks-app/blob/master/src/images/ratingCheck.png?raw=true");
+}
